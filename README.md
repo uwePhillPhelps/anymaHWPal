@@ -21,7 +21,9 @@ Simply record output from Anyma DIN and your controller during a "take" where yo
 * Your MIDI sequencer edits CC.
 
 ## Extra info
-A (pullup) toggle switch connected to Digital Pin 22 allows switching between `EDITOR CONNECTED` and `EDITOR DISCONNECTED` modes. Pal requests and relays your patch to Anyma DIN MIDI ports (so you can capture the entire Anyma state in your sequencer before each take).
+A (pullup) toggle switch connected to Digital Pin 22 allows switching between `EDITOR CONNECTED` and `EDITOR DISCONNECTED` modes. 
+
+AnymaPal requests and relays your patch to Anyma DIN MIDI ports (so you can capture the entire Anyma state in your sequencer before each take).
 
 Happy recording! :)
 
