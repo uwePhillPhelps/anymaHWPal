@@ -3,7 +3,7 @@
 
 A hardware friend for MIDI recording with Aodyo Anyma Phi
 
-![AnymaHWPal enclosure](images/anymaHWPal1.jpg) ![AnymaHWPal arduino mega adk](images/anymaHWPal2.jpg)
+![AnymaHWPal arduino mega adk](images/anymaHWPal2.jpg)
 
 ## The problem
 
@@ -29,6 +29,7 @@ AnymaPal requests and relays your patch to Anyma DIN MIDI ports (so you can capt
 
 Happy recording! :)
 
+![AnymaHWPal enclosure](images/anymaHWPal1.jpg) 
 __________
 
 v1.3.1 of USB HOST Library is tested extensively and successfully. Replace `USB_Midi.h` with supplied version to set `MIDI_MAX_SYSEX_SIZE 1024`.
