@@ -3,6 +3,8 @@
 
 A hardware friend for MIDI recording with Aodyo Anyma Phi
 
+![AnymaHWPal enclosure](images/anymaHWPal1.jpg) ![AnymaHWPal arduino mega adk](images/anymaHWPal2.jpg)
+
 ## The problem
 
 Useful messages over DIN MIDI ports are ignored, and patch state changes may not be simply recorded/edited with a MIDI sequencer.
