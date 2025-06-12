@@ -7,11 +7,12 @@ A hardware friend for MIDI recording with Aodyo Anyma Phi
 
 ## The problem
 
-Useful messages over DIN MIDI ports are ignored, and patch state changes may not be simply recorded/edited with a MIDI sequencer.
+It's not possible to "just jam" with Anyma Phi whilst a MIDI sequencer captures your patch edits and state changes. Some messages over DIN MIDI ports are ignored, and patch state changes may not be simply recorded/edited. 
 
 * Anyma wants MIDI CC.
 * Your MIDI sequencer edits CC.
 * Anyma sends SYSEX.
+* Anyma ingores some SYSEX previously transmitted.
 
 ## This solution
 Connect an Arduino (Mega ADK) to workaround firmware quirks, allowing full use of Anyma DIN MIDI ports with CC.
@@ -21,6 +22,7 @@ Simply record output from Anyma DIN and your controller during a "take" where yo
 * Pal converts SYSEX to CC.
 * Anyma receives CC.
 * Your MIDI sequencer edits CC.
+* Everyone is happy.
 
 ## Extra info
 A (pullup) toggle switch connected to Digital Pin 22 allows switching between `EDITOR CONNECTED` and `EDITOR DISCONNECTED` modes. 
